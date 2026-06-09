@@ -6,20 +6,20 @@
   <title>朱亦凡｜海外营销内容作品集</title>
   <style>
     :root {
-      --bg: #071326;
-      --bg2: #0b1f3a;
-      --card: rgba(255,255,255,0.075);
-      --card2: rgba(255,255,255,0.115);
-      --text: #f2f8ff;
-      --muted: #b9c9e8;
-      --pink: #2f7dff;
-      --rose: #6bb6ff;
-      --violet: #5b8cff;
-      --cyan: #75d6ff;
-      --gold: #9ed0ff;
-      --green: #72b7ff;
-      --line: rgba(255,255,255,0.16);
-      --shadow: 0 24px 80px rgba(0,0,0,0.38);
+      --bg: #f5f8fc;
+      --bg2: #eaf1f8;
+      --card: rgba(255,255,255,0.78);
+      --card2: rgba(255,255,255,0.92);
+      --text: #172033;
+      --muted: #637083;
+      --pink: #2f6fe4;
+      --rose: #547fb8;
+      --violet: #6c7fb2;
+      --cyan: #2faec4;
+      --gold: #b88932;
+      --green: #2f9b7c;
+      --line: rgba(23,32,51,0.12);
+      --shadow: 0 18px 50px rgba(31,55,88,0.14);
       --radius: 24px;
     }
     * { box-sizing: border-box; }
@@ -29,10 +29,10 @@
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", Arial, sans-serif;
       color: var(--text);
       background:
-        radial-gradient(circle at 8% 0%, rgba(47,125,255,0.42), transparent 32%),
-        radial-gradient(circle at 92% 8%, rgba(80,160,255,0.24), transparent 26%),
-        radial-gradient(circle at 45% 55%, rgba(58,111,255,0.26), transparent 34%),
-        linear-gradient(135deg, #06101f 0%, #0b1f3a 46%, #07182e 100%);
+        radial-gradient(circle at 8% 0%, rgba(47,111,228,0.18), transparent 32%),
+        radial-gradient(circle at 92% 8%, rgba(47,174,196,0.14), transparent 26%),
+        radial-gradient(circle at 45% 58%, rgba(184,137,50,0.10), transparent 34%),
+        linear-gradient(135deg, #f8fbff 0%, #eef4fb 48%, #f5f8fc 100%);
       line-height: 1.68;
     }
     a { color: inherit; text-decoration: none; }
@@ -41,7 +41,7 @@
       top: 0;
       z-index: 100;
       backdrop-filter: blur(18px);
-      background: rgba(15, 11, 24, 0.78);
+      background: rgba(248, 251, 255, 0.84);
       border-bottom: 1px solid var(--line);
     }
     .nav-inner {
@@ -64,7 +64,7 @@
       border: 1px solid transparent;
       white-space: nowrap;
     }
-    .nav-links a:hover { color: #fff; background: var(--card); border-color: var(--line); }
+    .nav-links a:hover { color: var(--text); background: var(--card); border-color: var(--line); }
     .wrap { max-width: 1180px; margin: 0 auto; padding: 34px 22px 80px; }
     section, article { scroll-margin-top: 88px; }
     .hero {
@@ -77,23 +77,23 @@
     }
     .eyebrow {
       display: inline-flex; align-items: center; gap: 8px;
-      padding: 8px 12px; border: 1px solid rgba(47,125,255,0.48);
-      color: #d9ebff; background: rgba(47,125,255,0.18);
+      padding: 8px 12px; border: 1px solid rgba(47,111,228,0.26);
+      color: #1d4f9a; background: rgba(47,111,228,0.08);
       border-radius: 999px; font-size: 13px; font-weight: 700;
     }
     h1 { margin: 20px 0 14px; font-size: clamp(38px, 6vw, 72px); line-height: 1.04; letter-spacing: -0.05em; }
     .grad { background: linear-gradient(90deg, var(--pink), var(--cyan), var(--gold)); -webkit-background-clip: text; color: transparent; }
-    .lead { color: #eadfec; font-size: 18px; max-width: 760px; }
+    .lead { color: #455468; font-size: 18px; max-width: 760px; }
     .role-note {
       margin-top: 20px; padding: 18px 20px; border-radius: 20px;
-      background: linear-gradient(135deg, rgba(47,125,255,0.20), rgba(91,140,255,0.13));
+      background: linear-gradient(135deg, rgba(47,111,228,0.10), rgba(255,255,255,0.74));
       border: 1px solid var(--line);
     }
-    .role-note b { color: #fff; }
+    .role-note b { color: var(--text); }
     .hero-card {
       position: relative;
       border: 1px solid var(--line);
-      background: linear-gradient(160deg, rgba(255,255,255,0.13), rgba(255,255,255,0.055));
+      background: linear-gradient(160deg, rgba(255,255,255,0.96), rgba(255,255,255,0.70));
       border-radius: 32px;
       padding: 24px;
       box-shadow: var(--shadow);
@@ -101,44 +101,45 @@
     }
     .hero-card:before {
       content: ""; position: absolute; inset: -80px -40px auto auto; width: 230px; height: 230px;
-      background: radial-gradient(circle, rgba(47,125,255,0.44), transparent 62%);
+      background: radial-gradient(circle, rgba(47,111,228,0.14), transparent 62%);
     }
     .metrics { display: grid; grid-template-columns: repeat(2, 1fr); gap: 14px; position: relative; }
     .metric {
-      padding: 18px 16px; border-radius: 20px; background: rgba(0,0,0,0.20); border: 1px solid var(--line);
+      padding: 18px 16px; border-radius: 20px; background: rgba(255,255,255,0.72); border: 1px solid var(--line);
     }
-    .metric .num { font-size: 30px; font-weight: 950; line-height: 1; color: #fff; }
+    .metric .num { font-size: 30px; font-weight: 950; line-height: 1; color: var(--text); }
     .metric .label { margin-top: 8px; color: var(--muted); font-size: 13px; }
     .section-title { margin: 34px 0 18px; display: flex; justify-content: space-between; gap: 16px; align-items: end; }
     .section-title h2 { margin: 0; font-size: 32px; letter-spacing: -0.03em; }
     .section-title p { margin: 0; color: var(--muted); max-width: 620px; }
     .pill-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
     .pill-card { padding: 18px; border: 1px solid var(--line); background: var(--card); border-radius: 20px; }
-    .pill-card h3 { margin: 0 0 8px; font-size: 16px; color: #fff; }
+    .pill-card h3 { margin: 0 0 8px; font-size: 16px; color: var(--text); }
     .pill-card p { margin: 0; color: var(--muted); font-size: 14px; }
     .case {
       margin: 26px 0;
       padding: 26px;
       border-radius: 30px;
-      background: linear-gradient(135deg, rgba(255,255,255,0.10), rgba(255,255,255,0.045));
+      background: linear-gradient(135deg, rgba(255,255,255,0.94), rgba(255,255,255,0.70));
       border: 1px solid var(--line);
-      box-shadow: 0 18px 55px rgba(0,0,0,0.22);
+      box-shadow: 0 18px 55px rgba(31,55,88,0.13);
       overflow: hidden;
     }
     .case-head { display: grid; grid-template-columns: 1fr auto; gap: 18px; align-items: start; margin-bottom: 18px; }
     .case-kicker { color: var(--rose); font-size: 13px; font-weight: 850; text-transform: uppercase; letter-spacing: 0.06em; }
     .case h2 { margin: 6px 0 8px; font-size: clamp(24px, 3vw, 36px); line-height: 1.18; letter-spacing: -0.035em; }
-    .case-desc { margin: 0; color: #dceaff; max-width: 860px; }
+    .case-desc { margin: 0; color: #4e5d72; max-width: 860px; }
     .rank {
       width: 58px; height: 58px; display: grid; place-items: center; border-radius: 18px;
-      background: linear-gradient(135deg, rgba(47,125,255,0.86), rgba(91,140,255,0.72));
-      font-weight: 950; font-size: 22px; box-shadow: 0 12px 28px rgba(47,125,255,0.28);
+      background: linear-gradient(135deg, rgba(47,111,228,0.88), rgba(184,137,50,0.70));
+      color: #fff;
+      font-weight: 950; font-size: 22px; box-shadow: 0 12px 28px rgba(47,111,228,0.16);
     }
     .tags { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
-    .tag { padding: 6px 10px; border: 1px solid var(--line); border-radius: 999px; background: rgba(47,125,255,0.10); color: #e8f2ff; font-size: 12px; }
+    .tag { padding: 6px 10px; border: 1px solid rgba(47,111,228,0.16); border-radius: 999px; background: rgba(47,111,228,0.07); color: #2f486d; font-size: 12px; }
     .case-grid { display: grid; grid-template-columns: 1.05fr 0.95fr; gap: 18px; align-items: start; }
     .case-grid.reverse { grid-template-columns: 0.95fr 1.05fr; }
-    .panel { padding: 18px; background: rgba(0,0,0,0.18); border: 1px solid var(--line); border-radius: 22px; }
+    .panel { padding: 18px; background: rgba(255,255,255,0.72); border: 1px solid var(--line); border-radius: 22px; }
     .case-grid > div:has(.video-container + .video-container),
     .case-grid > div:has(.video-container + .single-img) {
       display: grid;
@@ -149,11 +150,11 @@
     .case-grid > div:has(.video-container + .video-container) .video-container,
     .case-grid > div:has(.video-container + .single-img) .video-container,
     .case-grid > div:has(.video-container + .single-img) .single-img { margin: 0; }
-    .panel h3 { margin: 0 0 10px; font-size: 17px; color: #fff; }
+    .panel h3 { margin: 0 0 10px; font-size: 17px; color: var(--text); }
     .panel p, .panel li { color: var(--muted); font-size: 14.5px; }
     .panel ul { margin: 8px 0 0; padding-left: 18px; }
     .data-row { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin: 14px 0; }
-    .data-mini { padding: 14px; border-radius: 16px; border: 1px solid var(--line); background: rgba(255,255,255,0.06); }
+    .data-mini { padding: 14px; border-radius: 16px; border: 1px solid rgba(184,137,50,0.18); background: rgba(255,255,255,0.78); }
     .data-mini b { display: block; color: var(--gold); font-size: 22px; line-height: 1; }
     .data-mini span { display: block; margin-top: 7px; color: var(--muted); font-size: 12px; }
     .data-mini span b { display: inline; color: inherit; font-size: inherit; line-height: inherit; }
@@ -165,7 +166,7 @@
       background: #000;
       border-radius: 18px;
       overflow: hidden;
-      border: 1px solid rgba(255,255,255,0.14);
+      border: 1px solid rgba(23,32,51,0.14);
     }
     .video-container video {
       position: absolute;
@@ -179,7 +180,7 @@
     .image-grid.three { grid-template-columns: repeat(3, 1fr); }
     .image-grid.six { grid-template-columns: repeat(3, 1fr); }
     .image-grid img, .single-img {
-      width: 100%; max-height: 360px; object-fit: contain; border-radius: 16px; border: 1px solid var(--line); background: rgba(0,0,0,0.24);
+      width: 100%; max-height: 360px; object-fit: contain; border-radius: 16px; border: 1px solid var(--line); background: rgba(255,255,255,0.70);
       display: block; cursor: zoom-in; transition: transform .25s ease, filter .25s ease;
     }
     .image-grid img:hover, .single-img:hover { transform: translateY(-3px); filter: brightness(1.05); }
@@ -225,36 +226,36 @@
     .tvc-video { max-width: 900px; margin-left: auto; margin-right: auto; }
     .carousel-wrap {
       position: relative; border-radius: 22px; overflow: hidden; border: 1px solid var(--line);
-      background: #07070a; box-shadow: 0 16px 44px rgba(0,0,0,0.30);
+      background: #f8fafc; box-shadow: 0 16px 44px rgba(31,55,88,0.16);
     }
     .carousel-slide { display: none; }
     .carousel-slide.active { display: block; }
     .carousel-slide img { width: 100%; display: block; cursor: zoom-in; }
     .nav-btn {
       position: absolute; top: 50%; transform: translateY(-50%);
-      background: rgba(255,255,255,0.86); color: #171026; border: none;
+      background: rgba(255,255,255,0.92); color: #172033; border: 1px solid rgba(23,32,51,0.10);
       width: 38px; height: 38px; border-radius: 50%; cursor: pointer; font-size: 22px; font-weight: 900;
     }
     .prev { left: 12px; } .next { right: 12px; }
     .dots { position: absolute; left: 50%; bottom: 14px; transform: translateX(-50%); display: flex; gap: 7px; }
-    .dot { width: 9px; height: 9px; border-radius: 50%; background: rgba(255,255,255,0.45); cursor: pointer; }
-    .dot.active { background: #fff; }
+    .dot { width: 9px; height: 9px; border-radius: 50%; background: rgba(23,32,51,0.24); cursor: pointer; }
+    .dot.active { background: var(--pink); }
     .table { width: 100%; border-collapse: collapse; overflow: hidden; border-radius: 16px; font-size: 14px; }
     .table th, .table td { padding: 11px 10px; border-bottom: 1px solid var(--line); text-align: left; color: var(--muted); }
-    .table th { color: #fff; background: rgba(255,255,255,0.06); }
+    .table th { color: var(--text); background: rgba(47,111,228,0.06); }
     .table strong { color: var(--gold); }
     .workflow { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin-top: 12px; }
-    .step { padding: 14px; border-radius: 16px; background: rgba(47,125,255,0.14); border: 1px solid rgba(91,140,255,0.32); color: #e8f2ff; font-size: 13px; }
-    .step b { display: block; color: #fff; margin-bottom: 5px; }
+    .step { padding: 14px; border-radius: 16px; background: rgba(47,111,228,0.07); border: 1px solid rgba(47,111,228,0.16); color: #3f536f; font-size: 13px; }
+    .step b { display: block; color: var(--text); margin-bottom: 5px; }
     .fit-bar { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-top: 14px; }
-    .fit { padding: 14px; border-radius: 16px; background: rgba(47,125,255,0.14); border: 1px solid rgba(47,125,255,0.32); }
-    .fit b { color: #fff; }
+    .fit { padding: 14px; border-radius: 16px; background: rgba(47,111,228,0.07); border: 1px solid rgba(47,111,228,0.16); }
+    .fit b { color: var(--text); }
     .fit span { display: block; color: var(--muted); font-size: 13px; margin-top: 5px; }
     .modal { display: none; position: fixed; inset: 0; z-index: 999; background: rgba(0,0,0,0.88); align-items: center; justify-content: center; padding: 22px; }
     .modal.active { display: flex; }
     .modal img { max-width: 96vw; max-height: 92vh; border-radius: 14px; box-shadow: var(--shadow); }
     .close-tip { position: fixed; top: 18px; right: 22px; color: #fff; opacity: .85; font-size: 14px; }
-    .footer { margin-top: 44px; padding: 26px; border-radius: 28px; background: rgba(255,255,255,0.08); border: 1px solid var(--line); color: var(--muted); }
+    .footer { margin-top: 44px; padding: 26px; border-radius: 28px; background: rgba(255,255,255,0.78); border: 1px solid var(--line); color: var(--muted); box-shadow: 0 18px 55px rgba(31,55,88,0.10); }
     @media (max-width: 900px) {
       .hero, .case-grid, .case-grid.reverse, .damascus-layout { grid-template-columns: 1fr; }
       .pill-grid, .fit-bar { grid-template-columns: repeat(2, 1fr); }
@@ -291,11 +292,11 @@
       <div class="nav-links">
         <a href="#fit">能力概览</a>
         <a href="#case-tvc">TVC广告</a>
-        <a href="#case-emotion">用户洞察</a>
-        <a href="#case-kol">KOL共创</a>
         <a href="#case-trip">爆款短视频</a>
-        <a href="#case-damascus">情感叙事</a>
+        <a href="#case-emotion">用户洞察</a>
         <a href="#case-aigc-ending">AIGC尾卡</a>
+        <a href="#case-kol">KOL共创</a>
+        <a href="#case-damascus">情感叙事</a>
         <a href="#case-visual">视觉资产</a>
         <a href="#case-community">社群内容</a>
       </div>
@@ -340,45 +341,29 @@
       </div>
     </section>
 
-
-
-        <article class="case" id="case-tvc">
+<article class="case" id="case-tvc">
       <div class="case-head"><div><div class="case-kicker">Case 01 · Paid Ads / 40-60s Story Structure</div><h2>GentleBands TVC｜脚本、素材、剪辑全流程广告视频</h2><div class="tags"><span class="tag">广告投放素材</span><span class="tag">ROAS 5.78</span><span class="tag">脚本剪辑全流程</span><span class="tag">YouTube Ads可延展</span></div></div><div class="rank">01</div></div>
       <div class="stack-layout"><div class="video-container tvc-video"><video controls><source src="videos/Meta-GentleBands-TVC-1.mp4" type="video/mp4"></video></div><div class="video-container tvc-video"><video controls><source src="videos/Meta-GentleBands-TVC-2.mp4" type="video/mp4"></video></div><div class="panel full-panel"><div class="data-row"><div class="data-mini"><b>5.78</b><span>TVC_1 ROAS，公司均值 1.95 的 <b>2.96倍</b></span></div><div class="data-mini"><b>3.45%</b><span>TVC_2 CTR，公司均值 2.72% 的 <b>1.27倍</b></span></div><div class="data-mini"><b>4.01</b><span>TVC_1 Purchase ROAS，公司均值 1.09 的 <b>3.68倍</b></span></div></div><p class="case-desc">面向 Meta Ads 和 Google Pmax 的投放素材，独立完成脚本策划、素材寻找与剪辑成片。我会把广告素材拆成“首秒钩子 → 情绪场景 → 产品机制 → 价值证明 → CTA”，并根据投放目标和素材数据调整叙事节奏、卖点呈现和版本方向。</p></div></div>
     </article>
 
 
 
-        <article class="case" id="case-emotion">
-      <div class="case-head"><div><div class="case-kicker">Case 02 · Audience Insight / Carousel Ads</div><h2>Emotional Independence 轮播图｜目标用户洞察与转化表达</h2><div class="tags"><span class="tag">目标用户洞察</span><span class="tag">转化表达</span><span class="tag">精致视觉</span><span class="tag">CPM低42%</span></div></div><div class="rank">02</div></div>
-      <div class="emotion-grid"><div class="carousel-wrap"><div class="carousel-slide active"><img src="social-media/Emotional Independence_轮播图_01.png" alt="轮播图1" onclick="openModal(this)"></div><div class="carousel-slide"><img src="social-media/Emotional Independence_轮播图_02.png" alt="轮播图2" onclick="openModal(this)"></div><div class="carousel-slide"><img src="social-media/Emotional Independence_轮播图_03.png" alt="轮播图3" onclick="openModal(this)"></div><button class="nav-btn prev" onclick="changeSlide(-1)">‹</button><button class="nav-btn next" onclick="changeSlide(1)">›</button><div class="dots"><span class="dot active" onclick="goToSlide(0)"></span><span class="dot" onclick="goToSlide(1)"></span><span class="dot" onclick="goToSlide(2)"></span></div></div><div class="panel center-panel"><div class="data-row"><div class="data-mini"><b>16.8</b><span>CPM，低于公司均值 <b>42%</b></span></div><div class="data-mini"><b>$0.72</b><span>CPC，低于公司均值 <b>32%</b></span></div><div class="data-mini"><b>4.77</b><span>ROAS，公司均值 1.95 的 <b>2.45倍</b></span></div></div><ul><li>没有模仿竞对或该品类常见的“送礼”，而是换成了目标女性用户更容易代入的情感议题。</li><li>轮播图内容上做出一系列连续表达，让用户被持续吸引。</li></ul></div></div>
-    </article>
-
-
-
-        <article class="case" id="case-kol">
-      <div class="case-head"><div><div class="case-kicker">Case 03 · KOL Content / Creator Understanding</div><h2>iLAND × TikTok KOL｜380万播放的内容共创与达人素材理解</h2><div class="tags"><span class="tag">KOL素材理解</span><span class="tag">内容共创</span><span class="tag">380万播放</span><span class="tag">323K互动</span></div></div><div class="rank">03</div></div>
-      <div class="stack-layout"><img class="single-img kol-feature" src="KOL/TikTok-iLAND-KOL-互动量.png" alt="互动量截图" onclick="openModal(this)"><div class="media-row two"><img class="single-img" src="KOL/TikTok-iLAND-KOL-播放量.png" alt="播放量截图" onclick="openModal(this)"><div class="video-container"><video controls><source src="KOL/TikTok-iLAND-KOL-合作视频.mp4" type="video/mp4"></video></div></div><div class="panel full-panel"><div class="data-row"><div class="data-mini"><b>380万</b><span>播放量</span></div><div class="data-mini"><b>323K</b><span>互动量</span></div><div class="data-mini"><b>0付费</b><span>产品置换合作</span></div></div><p>我知道 KOL 内容为什么能让用户愿意看、愿意信，也能把一条达人视频拆成适合投放的短广告素材。</p></div></div>
-    </article>
-
-
-
-        <article class="case" id="case-trip">
-      <div class="case-head"><div><div class="case-kicker">Case 04 · Short Video Sense / Viral Content</div><h2>Trip.com Instagram｜从 0 到 1 的爆款短视频内容线</h2><div class="tags"><span class="tag">Instagram</span><span class="tag">150万播放</span><span class="tag">0-1冷启动</span><span class="tag">可投流内容</span></div></div><div class="rank">04</div></div>
+<article class="case" id="case-trip">
+      <div class="case-head"><div><div class="case-kicker">Case 02 · Short Video Sense / Viral Content</div><h2>Trip.com Instagram｜从 0 到 1 的爆款短视频内容线</h2><div class="tags"><span class="tag">Instagram</span><span class="tag">150万播放</span><span class="tag">0-1冷启动</span><span class="tag">可投流内容</span></div></div><div class="rank">02</div></div>
       <div class="case-grid"><div class="image-grid"><img src="social-media/INS-Trip-1.5M.jpg" alt="Trip 1.5M" onclick="openModal(this)"><img src="social-media/INS-Trip-578K.jpg" alt="Trip 578K" onclick="openModal(this)"><img src="social-media/INS-Trip-411K.jpg" alt="Trip 411K" onclick="openModal(this)"><img src="social-media/INS-Trip-309K.jpg" alt="Trip 309K" onclick="openModal(this)"></div><div class="panel center-panel"><h3>短视频内容判断</h3><div class="data-row"><div class="data-mini"><b>150万+</b><span>单条最高播放</span></div><div class="data-mini"><b>578K</b><span>系列高播放</span></div><div class="data-mini"><b>TOP</b><span>入选月度广告素材榜</span></div></div><ul><li>不依赖单次幸运爆款，而是形成一组可复制的中爆款内容。</li><li>内容因高转化被不断追投，多条入选Trip 每月广告素材 TOP 榜单</li></ul></div></div>
     </article>
 
 
 
-        <article class="case" id="case-damascus">
-      <div class="case-head"><div><div class="case-kicker">Case 05 · Storytelling / Hard Product to Emotion</div><h2>大马士革钢 TVC｜把难讲的产品转化成情感故事</h2><div class="tags"><span class="tag">情感叙事</span><span class="tag">难讲产品内容化</span><span class="tag">脚本策划</span></div></div><div class="rank">05</div></div>
-      <div class="case-grid reverse damascus-layout"><div class="panel center-panel"><p>大马士革钢本身是一个偏材料、偏工艺的卖点，如果直接讲参数，用户很难产生记忆。<br>我把它表达成“男性坚韧精神、生活锤炼”这类更容易被理解的情感叙事。</p></div><div class="video-container"><video controls><source src="videos/Meta-GentleBands-TVC-3.mp4" type="video/mp4"></video></div></div>
+<article class="case" id="case-emotion">
+      <div class="case-head"><div><div class="case-kicker">Case 03 · Audience Insight / Carousel Ads</div><h2>Emotional Independence 轮播图｜目标用户洞察与转化表达</h2><div class="tags"><span class="tag">目标用户洞察</span><span class="tag">转化表达</span><span class="tag">精致视觉</span><span class="tag">CPM低42%</span></div></div><div class="rank">03</div></div>
+      <div class="emotion-grid"><div class="carousel-wrap"><div class="carousel-slide active"><img src="social-media/Emotional Independence_轮播图_01.png" alt="轮播图1" onclick="openModal(this)"></div><div class="carousel-slide"><img src="social-media/Emotional Independence_轮播图_02.png" alt="轮播图2" onclick="openModal(this)"></div><div class="carousel-slide"><img src="social-media/Emotional Independence_轮播图_03.png" alt="轮播图3" onclick="openModal(this)"></div><button class="nav-btn prev" onclick="changeSlide(-1)">‹</button><button class="nav-btn next" onclick="changeSlide(1)">›</button><div class="dots"><span class="dot active" onclick="goToSlide(0)"></span><span class="dot" onclick="goToSlide(1)"></span><span class="dot" onclick="goToSlide(2)"></span></div></div><div class="panel center-panel"><div class="data-row"><div class="data-mini"><b>16.8</b><span>CPM，低于公司均值 <b>42%</b></span></div><div class="data-mini"><b>$0.72</b><span>CPC，低于公司均值 <b>32%</b></span></div><div class="data-mini"><b>4.77</b><span>ROAS，公司均值 1.95 的 <b>2.45倍</b></span></div></div><ul><li>没有模仿竞对或该品类常见的“送礼”，而是换成了目标女性用户更容易代入的情感议题。</li><li>轮播图内容上做出一系列连续表达，让用户被持续吸引。</li></ul></div></div>
     </article>
 
 
 
-        <article class="case" id="case-aigc-ending">
-      <div class="case-head"><div><div class="case-kicker">Case 06 · AIGC Production Workflow</div><h2>AIGC Ending Card｜高质感广告尾卡与 AI 工具链调度</h2><div class="tags"><span class="tag">AIGC工具链</span><span class="tag">广告尾卡</span><span class="tag">高质感视觉</span><span class="tag">多版本产出</span></div></div><div class="rank">06</div></div>
+<article class="case" id="case-aigc-ending">
+      <div class="case-head"><div><div class="case-kicker">Case 04 · AIGC Production Workflow</div><h2>AIGC Ending Card｜高质感广告尾卡与 AI 工具链调度</h2><div class="tags"><span class="tag">AIGC工具链</span><span class="tag">广告尾卡</span><span class="tag">高质感视觉</span><span class="tag">多版本产出</span></div></div><div class="rank">04</div></div>
       <div class="stack-layout">
         <div class="media-row two"><div class="video-container"><video controls><source src="videos/AIGC-EndingCard-1.mp4" type="video/mp4"></video></div><div class="video-container"><video controls><source src="videos/AIGC-EndingCard-2.mp4" type="video/mp4"></video></div></div>
         <div class="panel full-panel"><p>用于快速生成“产品界面 + 角色视觉 + CTA”的广告尾卡，并按目标效果组合图像、视频、补帧和音效工具，补齐广告素材最后的转化环节。</p><div class="workflow"><div class="step"><b>图像生成</b>GPT image 2 / Nano Banana / Midjourney 类工具</div><div class="step"><b>视频生成</b>可灵 / Runway / VEO 生成动态</div><div class="step"><b>AI配音</b>Hailuo / 即梦 / VEO 辅助音频与口播</div><div class="step"><b>投放落地</b>尾卡、字幕、CTA版本化</div></div></div>
@@ -387,14 +372,28 @@
 
 
 
-        <article class="case" id="case-visual">
+<article class="case" id="case-kol">
+      <div class="case-head"><div><div class="case-kicker">Case 05 · KOL Content / Creator Understanding</div><h2>iLAND × TikTok KOL｜380万播放的内容共创与达人素材理解</h2><div class="tags"><span class="tag">KOL素材理解</span><span class="tag">内容共创</span><span class="tag">380万播放</span><span class="tag">323K互动</span></div></div><div class="rank">05</div></div>
+      <div class="stack-layout"><img class="single-img kol-feature" src="KOL/TikTok-iLAND-KOL-互动量.png" alt="互动量截图" onclick="openModal(this)"><div class="media-row two"><img class="single-img" src="KOL/TikTok-iLAND-KOL-播放量.png" alt="播放量截图" onclick="openModal(this)"><div class="video-container"><video controls><source src="KOL/TikTok-iLAND-KOL-合作视频.mp4" type="video/mp4"></video></div></div><div class="panel full-panel"><div class="data-row"><div class="data-mini"><b>380万</b><span>播放量</span></div><div class="data-mini"><b>323K</b><span>互动量</span></div><div class="data-mini"><b>0付费</b><span>产品置换合作</span></div></div><p>我知道 KOL 内容为什么能让用户愿意看、愿意信，也能把一条达人视频拆成适合投放的短广告素材。</p></div></div>
+    </article>
+
+
+
+<article class="case" id="case-damascus">
+      <div class="case-head"><div><div class="case-kicker">Case 06 · Storytelling / Hard Product to Emotion</div><h2>大马士革钢 TVC｜把难讲的产品转化成情感故事</h2><div class="tags"><span class="tag">情感叙事</span><span class="tag">难讲产品内容化</span><span class="tag">脚本策划</span></div></div><div class="rank">06</div></div>
+      <div class="case-grid reverse damascus-layout"><div class="panel center-panel"><p>大马士革钢本身是一个偏材料、偏工艺的卖点，如果直接讲参数，用户很难产生记忆。<br>我把它表达成“男性坚韧精神、生活锤炼”这类更容易被理解的情感叙事。</p></div><div class="video-container"><video controls><source src="videos/Meta-GentleBands-TVC-3.mp4" type="video/mp4"></video></div></div>
+    </article>
+
+
+
+<article class="case" id="case-visual">
       <div class="case-head"><div><div class="case-kicker">Case 07 · Visual Assets / Cross-platform Design</div><h2>iLAND 跨平台封面图｜摄影、后期、设计一体化视觉产出</h2><div class="tags"><span class="tag">视觉审美</span><span class="tag">封面图</span><span class="tag">多平台适配</span><span class="tag">首帧 / 缩略图</span></div></div><div class="rank">07</div></div>
       <div class="visual-grid"><div class="image-grid six"><img class="iland-lower" src="social-media/iLAND-6.png" alt="iLAND 6" onclick="openModal(this)"><img src="social-media/iLAND-2.jpg" alt="iLAND 2" onclick="openModal(this)"><img src="social-media/iLAND-1.jpg" alt="iLAND 1" onclick="openModal(this)"><img src="social-media/iLAND-4.png" alt="iLAND 4" onclick="openModal(this)"><img src="social-media/iLAND-5.jpg" alt="iLAND 5" onclick="openModal(this)"><img src="social-media/iLAND-3.jpg" alt="iLAND 3" onclick="openModal(this)"></div><div class="panel center-panel"><p>主动了解目标市场用户偏好的视觉风格后，我能快速学习并调整自己的出图方式。</p><ul><li>主动补构图、色彩、材质和氛围感相关知识。</li><li>根据不同产品和平台，快速切换封面、社媒图和首帧风格。</li><li>从审美判断到拍摄、后期和排版，都能自己完成并持续优化。</li></ul></div></div>
     </article>
 
 
 
-        <article class="case" id="case-community">
+<article class="case" id="case-community">
       <div class="case-head">
         <div>
           <div class="case-kicker">Case 08 · Community Content / UGC Trigger</div>
